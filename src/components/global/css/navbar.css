@@ -1,0 +1,137 @@
+.body {
+  margin:0;
+  background-color: ="rgb(246,246,246)";
+}
+
+.header {
+    background: rgba(0, 0, 0, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.navbarToggler{
+  padding: 0.25rem 0.75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background: #14878e;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+
+}
+
+.footer{
+  background: rgba(0, 0, 0, 0.6);
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+
+.Jumbo{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+
+}
+
+.tituloCategoria{
+  font-family: 'Fira Sans', sans-serif;
+
+font-weight: bold;
+}
+
+.titulo{
+  font-family: 'PT Serif', serif;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.parrafo{
+  text-align: justify;
+  font-family: 'PT Serif', serif;
+  font-size: 125%;
+}
+
+.apoyanos{
+  background: rgba(255,255,255,0.5);
+  margin-top: 5%;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.nosotrosParrafo{
+font-family: Lato,sans-serif;
+font-weight: 50;
+padding: 20px;
+top: 30%;
+left: 25%;
+right: 25%;
+border-radius: 10px;
+}
+
+.nosotrosTitulo{
+  font-family: 'Patua One', cursive;
+  font-weight: bold;
+  margin-top: 1%;
+  text-align: left;
+  font-size: 300%;
+  color: #060400bd;
+
+}
+
+.nosotrosBack{
+  background: rgba(255,255,255,0.5);
+  margin-top: 5%;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.nosotrosTexto{
+  text-align: justify;
+  font-family: 'PT Serif', serif;
+      font-size: 125%;
+      margin-top: 1%;
+}
+
+#section02 a {
+  padding-top: 60px;
+}
+#section02 a span {
+  position: absolute;
+      /* top: 0; */
+      left: 50%;
+      width: 35px;
+      height: 35px;
+      margin-left: -23px;
+      border: 1px solid #fff;
+      border-radius: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+}
+#section02 a span:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+.more{
+margin-bottom: 10px;
+
+}
+
+.less{
+margin-top: 10px;
+
+}

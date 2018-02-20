@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: #14878E;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+all {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+    all central {
+        margin: auto;
+        width: 80%;
+        /* background-image: url(../images/fondo1.png); */
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: white;
+        text-shadow: -1px 1px 1px black;
+    }

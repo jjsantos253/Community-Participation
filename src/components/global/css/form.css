@@ -1,0 +1,12 @@
+.Formulario{
+background: rgba(255,255,255,0.5);
+margin-top: 20px;
+padding-top: 10px;
+margin-bottom: 5px;
+padding-bottom: 10px;
+border-radius: 5px;
+}
+
+.etiqueta{
+font-weight: bold;
+}
