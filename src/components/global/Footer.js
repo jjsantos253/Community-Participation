@@ -30,8 +30,8 @@ render() {
               </div>
 
               <div className="col-md-4">
-                  <SocialIcon color="white" url="https://twitter.com/RDParticipa" network="twitter" />
-                  <SocialIcon color="white" url="https://www.facebook.com/PCRDominicana" network="facebook"  />
+                  <SocialIcon url="https://twitter.com/RDParticipa" network="twitter" />
+                  <SocialIcon url="https://www.facebook.com/PCRDominicana" network="facebook"  />
 
               </div>
 

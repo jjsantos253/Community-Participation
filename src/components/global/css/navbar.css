@@ -1,10 +1,11 @@
 .body {
   margin:0;
+  background-image: url("./../img/flat-compressor.jpg");
   background-color: ="rgb(246,246,246)";
 }
 
 .header {
-    background: rgba(0, 0, 0, 255);
+    background: rgba(0, 0, 0, 0.6);
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }

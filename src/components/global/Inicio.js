@@ -86,7 +86,7 @@ this.setState({ redirect: true });
 
 changeState(){
 
-	const itemsRef = firebase.database().ref('publicacion').limitToFirst(3).orderByChild('fecha');
+	const itemsRef = firebase.database().ref('publicacion').limitToLast(3).orderByChild('fecha');
 	itemsRef.on('value', (snapshot) => {
 
 		let items = snapshot.val();
